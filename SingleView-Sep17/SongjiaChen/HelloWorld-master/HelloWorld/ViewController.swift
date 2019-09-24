@@ -15,7 +15,30 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
+    @IBOutlet weak var welcomeLabel: UILabel!
+    @IBOutlet weak var nameInput: UITextField!
+    @IBOutlet weak var passwordInput: UITextField!
     
-
+    @IBAction func loginBtnClick(_ sender: Any) {
+        var check = false
+        if let username = nameInput.text{
+            if username == "song" {
+                if let password = passwordInput.text{
+                    if password == "song" {
+                        check = true
+                    }
+                }
+            }
+        }
+        if(check){
+            if let username = nameInput.text{
+                welcomeLabel.text = "Hi " + username
+            }
+        }
+        
+        
+        
+    }
+    
 }
 
