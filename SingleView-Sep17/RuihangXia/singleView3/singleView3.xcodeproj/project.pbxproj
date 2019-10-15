@@ -13,6 +13,11 @@
 		8889EAC6234C72D3006BA9F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8889EAC5234C72D3006BA9F8 /* Assets.xcassets */; };
 		8889EAC9234C72D3006BA9F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8889EAC7234C72D3006BA9F8 /* LaunchScreen.storyboard */; };
 		8889EAD1234C73DE006BA9F8 /* aName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8889EAD0234C73DE006BA9F8 /* aName.swift */; };
+		889517D72355B50F00849BBF /* AddFoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889517D62355B50F00849BBF /* AddFoodViewController.swift */; };
+		889517D92355BA7600849BBF /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889517D82355BA7600849BBF /* EditViewController.swift */; };
+		88CAFC3723559EDC00BA320D /* FoodList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CAFC3623559EDC00BA320D /* FoodList.swift */; };
+		88CAFC392355A42D00BA320D /* food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CAFC382355A42D00BA320D /* food.swift */; };
+		88CAFC3B2355A97100BA320D /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88CAFC3A2355A97100BA320D /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		8889EAC8234C72D3006BA9F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8889EACA234C72D3006BA9F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8889EAD0234C73DE006BA9F8 /* aName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = aName.swift; sourceTree = "<group>"; };
+		889517D62355B50F00849BBF /* AddFoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFoodViewController.swift; sourceTree = "<group>"; };
+		889517D82355BA7600849BBF /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
+		88CAFC3623559EDC00BA320D /* FoodList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodList.swift; sourceTree = "<group>"; };
+		88CAFC382355A42D00BA320D /* food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = food.swift; sourceTree = "<group>"; };
+		88CAFC3A2355A97100BA320D /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,8 +67,13 @@
 			isa = PBXGroup;
 			children = (
 				8889EABE234C72CA006BA9F8 /* AppDelegate.swift */,
+				88CAFC3623559EDC00BA320D /* FoodList.swift */,
 				8889EAC0234C72CA006BA9F8 /* ViewController.swift */,
 				8889EAC2234C72CA006BA9F8 /* Main.storyboard */,
+				889517D62355B50F00849BBF /* AddFoodViewController.swift */,
+				889517D82355BA7600849BBF /* EditViewController.swift */,
+				88CAFC382355A42D00BA320D /* food.swift */,
+				88CAFC3A2355A97100BA320D /* DetailViewController.swift */,
 				8889EAD0234C73DE006BA9F8 /* aName.swift */,
 				8889EAC5234C72D3006BA9F8 /* Assets.xcassets */,
 				8889EAC7234C72D3006BA9F8 /* LaunchScreen.storyboard */,
@@ -138,9 +153,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				889517D92355BA7600849BBF /* EditViewController.swift in Sources */,
+				889517D72355B50F00849BBF /* AddFoodViewController.swift in Sources */,
 				8889EAC1234C72CA006BA9F8 /* ViewController.swift in Sources */,
+				88CAFC3723559EDC00BA320D /* FoodList.swift in Sources */,
 				8889EABF234C72CA006BA9F8 /* AppDelegate.swift in Sources */,
+				88CAFC3B2355A97100BA320D /* DetailViewController.swift in Sources */,
 				8889EAD1234C73DE006BA9F8 /* aName.swift in Sources */,
+				88CAFC392355A42D00BA320D /* food.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func exitToIndex(segue: UIStoryboardSegue){
-        print("need not to print anything")
+        print("Back to index")
     }
 
 }

@@ -1,14 +1,14 @@
 //
-//  aName.swift
+//  AddFoodViewController.swift
 //  singleView3
 //
-//  Created by imac on 2019/10/8.
+//  Created by imac on 2019/10/15.
 //  Copyright © 2019 Apple. All rights reserved.
 //
 
 import UIKit
 
-class aName: UIViewController {
+class AddFoodViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -16,11 +16,6 @@ class aName: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-    @IBAction func registerButtonClick(_ sender :Any){
-        self.dismiss(animated: false, completion: nil)
-    }
-    
-
 
     /*
     // MARK: - Navigation
