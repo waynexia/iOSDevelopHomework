@@ -27,6 +27,6 @@ class EditViewController: UIViewController {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        foodForEdit = food(name: self.nameInput.text, desc: self.descInput.text, star: Int32(self.descInput.text!))
+        foodForEdit = food(name: self.nameInput.text, desc: self.descInput.text, star: Int32(self.starInput.text!))
     }
 }

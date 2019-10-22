@@ -113,13 +113,14 @@ class FoodList: UITableViewController {
             if editVC.edit!{
                 if let selectedIndexPath = tableView.indexPathForSelectedRow{
                     // update an exissting food
+                    print("going to edit a entry \(editVC.foodForEdit!.star)")
                     food_list[(selectedIndexPath as NSIndexPath).row] = editVC.foodForEdit!
                     tableView.reloadRows(at: [selectedIndexPath], with: .none)
                 }
             }
             else{
-                print("going to add a entry")
                 let addFood = editVC.foodForEdit!
+                print("going to add a entry \(addFood.star)")
                 food_list.append(addFood)
                 let newIndexPath = IndexPath(row:food_list.count - 1, section: 0)
                 tableView.insertRows(at: [newIndexPath], with:.automatic)
